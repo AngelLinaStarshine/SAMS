@@ -1,0 +1,106 @@
+/* --- Reset and Base Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+  
+  /* --- Header and Navigation --- */
+  header {
+    background-color: #007ACC;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover,
+  header nav ul li a.active {
+    text-decoration: underline;
+  }
+  
+  /* --- Main Content Styles --- */
+  main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* For pages with a background image like the reception page,
+       you might override this main style in a separate CSS file if needed. */
+  }
+  
+  /* FAQ & Resources Specific Styles */
+  #faqContent {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  #faqContent h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007ACC;
+  }
+  
+  #faqContent p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3 {
+    margin-bottom: 10px;
+    color: #007ACC;
+    font-size: 1.3em;
+  }
+  
+  .faq-item p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  /* --- Footer Styles --- */
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  
